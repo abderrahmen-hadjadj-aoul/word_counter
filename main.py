@@ -14,16 +14,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-lines = [
-    "Hello Bob",
-    "My brother is named Bob",
-    "Welcome to Texas",
-]
-
-word_counter = WordCounter()
-word_counter.account_lines(lines)
-word_stat_report = word_counter.get_stat_report()
-
-print(word_stat_report)
