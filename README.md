@@ -1,6 +1,13 @@
 # Word Counter
 
-The given program counts unique words from an English text file, treating hyphen and apostrophe as part of the word. Your program must output the ten most frequent words and mention the number of occurrences.
+The given program counts unique words from an English text file, treating hyphen and apostrophe as part of the word. The program output the ten most frequent words and mention the number of occurrences.
+
+# Dependencies
+
+The program needs:
+
+- python
+- pytest
 
 # Usage
 
