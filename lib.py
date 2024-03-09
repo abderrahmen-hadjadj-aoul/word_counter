@@ -1,4 +1,5 @@
 import re
+from typing import Iterator
 
 not_letter_regex = re.compile('[^a-zA-Z\'-]')
 
@@ -8,7 +9,7 @@ class WordCounter:
     def __init__(self):
         self.word_map = {}
 
-    def account_lines(self, lines):
+    def account_lines(self, lines: Iterator[str] | list[str]):
         for line in lines:
             self._account_single_line(line)
 
